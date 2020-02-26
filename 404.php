@@ -1,30 +1,24 @@
 <?php get_header(); ?>
 
 
-    <div class="col l8 s12">
+<div class="col l8 s12">
 
 
-        <div class="card-4 margin white">
-
-            <?php if (has_post_thumbnail($post->ID)): ?>
-            <?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'single-post-thumbnail'); ?>
-
-            <img src="<?php echo $image[0]; ?>" alt="Nature" style="width:100%">
-
-        </div>
-        <?php endif; ?>
+    <div class="card-4 margin white">
 
 
-        <div class="container">
-            <h3><b><?php the_title(); ?></b></h3>
-            <!-- <h5>Title description, <span class="opacity">1</span></h5> -->
-        </div>
-
-        <div class="container">
 
 
-            <?php echo get_post_field('post_content', the_ID()); ?>
-            <!--
+    <div class="container">
+        <h3><b><?php the_title(); ?></b></h3>
+        <!-- <h5>Title description, <span class="opacity">1</span></h5> -->
+    </div>
+
+    <div class="container">
+
+
+        It looks like nothing was found at this location. Maybe try a search?
+        <!--
                                             <div class="row">
                                                 <div class="col m8 s12">
                                                     <p>
@@ -37,15 +31,15 @@
                                                 </div>
                                             </div>
                                             -->
-        </div>
     </div>
-    <hr>
+</div>
+<hr>
 
 
 <?php comments_template(); ?>
 
 
-    </div>
+</div>
 
 
 <?php get_sidebar(); ?>
