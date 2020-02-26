@@ -1,6 +1,6 @@
    <div class="col l4">
             <div class="card margin margin-top">
-                <img src="http://localhost/wordpress/wp-content/themes/Qalab/img/avatar_g.jpg" style="width:100%">
+                
                 <div class="container white">
                     <h4><b>My Name</b></h4>
                     <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a

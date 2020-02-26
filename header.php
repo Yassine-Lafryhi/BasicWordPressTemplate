@@ -2,7 +2,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/Qalab/css/style.css">
+<link rel="stylesheet" href="<?php  echo get_template_directory_uri().'/css/style.css'?>">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <!--
   <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/Qalab/css/bootstrap.min.css">
