@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<div class="col l8 s12">
+<div class="w3-col l8 s12">
 
 
     <?php
@@ -29,7 +29,7 @@
 <?php endif; ?>
 
 
-    <div class="container">
+    <div class="w3-container">
         <h3><b><?php the_title(); ?></b></h3>
         <?php $postcat = get_the_category($post->ID);
 
@@ -42,16 +42,16 @@
             } ?></h5>
     </div>
 
-    <div class="container">
+    <div class="w3-container">
         <?php the_excerpt(); ?>
-        <div class="row">
-            <div class="col m8 s12">
+        <div class="w3-row">
+            <div class="w3-col m8 s12">
                 <p>
-                    <a href="<?php the_permalink(); ?>" class="button padding-large white border"><b>READ MORE »</b>
+                    <a href="<?php the_permalink(); ?>" class="w3-button padding-large white border"><b>READ MORE »</b>
                     </a>
                 </p>
             </div>
-            <div class="col m4 hide-small">
+            <div class="w3-col m4 hide-small">
                 <p><span class="padding-large right"><b>Comments &nbsp;</b> <span
                                 class="tag"><?php echo get_comments_number(); ?></span></span></p>
             </div>

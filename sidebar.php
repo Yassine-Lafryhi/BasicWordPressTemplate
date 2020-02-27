@@ -1,4 +1,4 @@
-<div class="col l4">
+<div class="w3-col l4">
     <div class="card margin margin-top">
         <img src="http://localhost/wordpress/wp-content/themes/Qalab/img/avatar_g.jpg" style="width:100%">
         <div class="container white">
