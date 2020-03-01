@@ -73,7 +73,7 @@ $oddcomment = 'class="comments-alt" ';
 
 <?php if ('open' == $post->comment_status) : ?>
     <div class="card-4 margin white">
-    <div class="container">
+    <div class="w3-container">
     <h2 id="respond">Leave a Response</h2>
 
     <?php if (get_option('comment_registration') && !$user_ID) : ?>
@@ -112,7 +112,7 @@ $oddcomment = 'class="comments-alt" ';
 
             <p><textarea name="comment" id="comment" cols="35" rows="5" tabindex="4"></textarea></p>
 
-            <p><input name="submit" type="submit" id="submit" tabindex="5" class="button padding-large white border"
+            <p><input name="submit" type="submit" id="submit" tabindex="5" class="w3-button padding-large white border"
                       value="Submit Comment"/>
                 <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>"/>
             </p>
